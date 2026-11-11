@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sebiglesias.com.ar/cuando-cobro/sitemap.xml

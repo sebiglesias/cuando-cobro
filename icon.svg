@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#gradBg)"/>
+  
+  <!-- Calendar Header & Body -->
+  <rect x="96" y="110" width="320" height="290" rx="32" fill="#ffffff" filter="drop-shadow(0 14px 28px rgba(0,0,0,0.25))"/>
+  <path d="M96 142 C96 124 110 110 128 110 L384 110 C402 110 416 124 416 142 L416 180 L96 180 Z" fill="#0284c7"/>
+  
+  <!-- Rings -->
+  <rect x="156" y="85" width="24" height="48" rx="12" fill="#ffffff"/>
+  <rect x="332" y="85" width="24" height="48" rx="12" fill="#ffffff"/>
+  
+  <!-- Calendar Grid dots/lines -->
+  <circle cx="160" cy="230" r="14" fill="#cbd5e1"/>
+  <circle cx="224" cy="230" r="14" fill="#cbd5e1"/>
+  <circle cx="288" cy="230" r="14" fill="#cbd5e1"/>
+  <circle cx="352" cy="230" r="14" fill="#cbd5e1"/>
+
+  <circle cx="160" cy="290" r="14" fill="#cbd5e1"/>
+  <circle cx="224" cy="290" r="18" fill="#0284c7"/>
+  <circle cx="288" cy="290" r="14" fill="#cbd5e1"/>
+  <circle cx="352" cy="290" r="14" fill="#cbd5e1"/>
+
+  <!-- Cash / Check mark Badge -->
+  <circle cx="370" cy="380" r="85" fill="#10b981" stroke="#ffffff" stroke-width="12"/>
+  <path d="M338 380 L360 402 L406 356" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
